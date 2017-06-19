@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2038FAF41EF8849600E0567B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FAF31EF8849600E0567B /* AppDelegate.swift */; };
+		2038FAF61EF8849600E0567B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2038FAF51EF8849600E0567B /* GameScene.sks */; };
+		2038FAF81EF8849600E0567B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2038FAF71EF8849600E0567B /* Actions.sks */; };
+		2038FAFA1EF8849600E0567B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FAF91EF8849600E0567B /* GameScene.swift */; };
+		2038FAFC1EF8849600E0567B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FAFB1EF8849600E0567B /* GameViewController.swift */; };
+		2038FAFF1EF8849600E0567B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2038FAFD1EF8849600E0567B /* Main.storyboard */; };
+		2038FB011EF8849600E0567B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2038FB001EF8849600E0567B /* Assets.xcassets */; };
+		2038FB041EF8849600E0567B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2038FB021EF8849600E0567B /* LaunchScreen.storyboard */; };
+		2038FB0F1EF8849600E0567B /* FlappyKappaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FB0E1EF8849600E0567B /* FlappyKappaTests.swift */; };
+		2038FB1A1EF8849600E0567B /* FlappyKappaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FB191EF8849600E0567B /* FlappyKappaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2038FB0B1EF8849600E0567B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2038FAE81EF8849600E0567B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2038FAEF1EF8849600E0567B;
+			remoteInfo = FlappyKappa;
+		};
+		2038FB161EF8849600E0567B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2038FAE81EF8849600E0567B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2038FAEF1EF8849600E0567B;
+			remoteInfo = FlappyKappa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2038FAF01EF8849600E0567B /* FlappyKappa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlappyKappa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2038FAF31EF8849600E0567B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2038FAF51EF8849600E0567B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2038FAF71EF8849600E0567B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2038FAF91EF8849600E0567B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2038FAFB1EF8849600E0567B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2038FAFE1EF8849600E0567B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2038FB001EF8849600E0567B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2038FB031EF8849600E0567B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2038FB051EF8849600E0567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2038FB0A1EF8849600E0567B /* FlappyKappaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyKappaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2038FB0E1EF8849600E0567B /* FlappyKappaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyKappaTests.swift; sourceTree = "<group>"; };
+		2038FB101EF8849600E0567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2038FB151EF8849600E0567B /* FlappyKappaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyKappaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2038FB191EF8849600E0567B /* FlappyKappaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyKappaUITests.swift; sourceTree = "<group>"; };
+		2038FB1B1EF8849600E0567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2038FAED1EF8849600E0567B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB071EF8849600E0567B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB121EF8849600E0567B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2038FAE71EF8849600E0567B = {
+			isa = PBXGroup;
+			children = (
+				2038FAF21EF8849600E0567B /* FlappyKappa */,
+				2038FB0D1EF8849600E0567B /* FlappyKappaTests */,
+				2038FB181EF8849600E0567B /* FlappyKappaUITests */,
+				2038FAF11EF8849600E0567B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2038FAF11EF8849600E0567B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2038FAF01EF8849600E0567B /* FlappyKappa.app */,
+				2038FB0A1EF8849600E0567B /* FlappyKappaTests.xctest */,
+				2038FB151EF8849600E0567B /* FlappyKappaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2038FAF21EF8849600E0567B /* FlappyKappa */ = {
+			isa = PBXGroup;
+			children = (
+				2038FAF31EF8849600E0567B /* AppDelegate.swift */,
+				2038FAF51EF8849600E0567B /* GameScene.sks */,
+				2038FAF71EF8849600E0567B /* Actions.sks */,
+				2038FAF91EF8849600E0567B /* GameScene.swift */,
+				2038FAFB1EF8849600E0567B /* GameViewController.swift */,
+				2038FAFD1EF8849600E0567B /* Main.storyboard */,
+				2038FB001EF8849600E0567B /* Assets.xcassets */,
+				2038FB021EF8849600E0567B /* LaunchScreen.storyboard */,
+				2038FB051EF8849600E0567B /* Info.plist */,
+			);
+			path = FlappyKappa;
+			sourceTree = "<group>";
+		};
+		2038FB0D1EF8849600E0567B /* FlappyKappaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2038FB0E1EF8849600E0567B /* FlappyKappaTests.swift */,
+				2038FB101EF8849600E0567B /* Info.plist */,
+			);
+			path = FlappyKappaTests;
+			sourceTree = "<group>";
+		};
+		2038FB181EF8849600E0567B /* FlappyKappaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2038FB191EF8849600E0567B /* FlappyKappaUITests.swift */,
+				2038FB1B1EF8849600E0567B /* Info.plist */,
+			);
+			path = FlappyKappaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2038FAEF1EF8849600E0567B /* FlappyKappa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2038FB1E1EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappa" */;
+			buildPhases = (
+				2038FAEC1EF8849600E0567B /* Sources */,
+				2038FAED1EF8849600E0567B /* Frameworks */,
+				2038FAEE1EF8849600E0567B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlappyKappa;
+			productName = FlappyKappa;
+			productReference = 2038FAF01EF8849600E0567B /* FlappyKappa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2038FB091EF8849600E0567B /* FlappyKappaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2038FB211EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaTests" */;
+			buildPhases = (
+				2038FB061EF8849600E0567B /* Sources */,
+				2038FB071EF8849600E0567B /* Frameworks */,
+				2038FB081EF8849600E0567B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2038FB0C1EF8849600E0567B /* PBXTargetDependency */,
+			);
+			name = FlappyKappaTests;
+			productName = FlappyKappaTests;
+			productReference = 2038FB0A1EF8849600E0567B /* FlappyKappaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2038FB141EF8849600E0567B /* FlappyKappaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2038FB241EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaUITests" */;
+			buildPhases = (
+				2038FB111EF8849600E0567B /* Sources */,
+				2038FB121EF8849600E0567B /* Frameworks */,
+				2038FB131EF8849600E0567B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2038FB171EF8849600E0567B /* PBXTargetDependency */,
+			);
+			name = FlappyKappaUITests;
+			productName = FlappyKappaUITests;
+			productReference = 2038FB151EF8849600E0567B /* FlappyKappaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2038FAE81EF8849600E0567B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Evan Chen";
+				TargetAttributes = {
+					2038FAEF1EF8849600E0567B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 5D4T3ZPWPA;
+						ProvisioningStyle = Automatic;
+					};
+					2038FB091EF8849600E0567B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2038FAEF1EF8849600E0567B;
+					};
+					2038FB141EF8849600E0567B = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2038FAEF1EF8849600E0567B;
+					};
+				};
+			};
+			buildConfigurationList = 2038FAEB1EF8849600E0567B /* Build configuration list for PBXProject "FlappyKappa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2038FAE71EF8849600E0567B;
+			productRefGroup = 2038FAF11EF8849600E0567B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2038FAEF1EF8849600E0567B /* FlappyKappa */,
+				2038FB091EF8849600E0567B /* FlappyKappaTests */,
+				2038FB141EF8849600E0567B /* FlappyKappaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2038FAEE1EF8849600E0567B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2038FAFF1EF8849600E0567B /* Main.storyboard in Resources */,
+				2038FAF61EF8849600E0567B /* GameScene.sks in Resources */,
+				2038FB011EF8849600E0567B /* Assets.xcassets in Resources */,
+				2038FB041EF8849600E0567B /* LaunchScreen.storyboard in Resources */,
+				2038FAF81EF8849600E0567B /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB081EF8849600E0567B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB131EF8849600E0567B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2038FAEC1EF8849600E0567B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2038FAFA1EF8849600E0567B /* GameScene.swift in Sources */,
+				2038FAFC1EF8849600E0567B /* GameViewController.swift in Sources */,
+				2038FAF41EF8849600E0567B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB061EF8849600E0567B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2038FB0F1EF8849600E0567B /* FlappyKappaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2038FB111EF8849600E0567B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2038FB1A1EF8849600E0567B /* FlappyKappaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2038FB0C1EF8849600E0567B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2038FAEF1EF8849600E0567B /* FlappyKappa */;
+			targetProxy = 2038FB0B1EF8849600E0567B /* PBXContainerItemProxy */;
+		};
+		2038FB171EF8849600E0567B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2038FAEF1EF8849600E0567B /* FlappyKappa */;
+			targetProxy = 2038FB161EF8849600E0567B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2038FAFD1EF8849600E0567B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2038FAFE1EF8849600E0567B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2038FB021EF8849600E0567B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2038FB031EF8849600E0567B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2038FB1C1EF8849600E0567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2038FB1D1EF8849600E0567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2038FB1F1EF8849600E0567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5D4T3ZPWPA;
+				INFOPLIST_FILE = FlappyKappa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2038FB201EF8849600E0567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5D4T3ZPWPA;
+				INFOPLIST_FILE = FlappyKappa/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2038FB221EF8849600E0567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlappyKappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyKappa.app/FlappyKappa";
+			};
+			name = Debug;
+		};
+		2038FB231EF8849600E0567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlappyKappaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlappyKappa.app/FlappyKappa";
+			};
+			name = Release;
+		};
+		2038FB251EF8849600E0567B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlappyKappaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlappyKappa;
+			};
+			name = Debug;
+		};
+		2038FB261EF8849600E0567B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FlappyKappaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Chiyu.FlappyKappaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FlappyKappa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2038FAEB1EF8849600E0567B /* Build configuration list for PBXProject "FlappyKappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2038FB1C1EF8849600E0567B /* Debug */,
+				2038FB1D1EF8849600E0567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2038FB1E1EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2038FB1F1EF8849600E0567B /* Debug */,
+				2038FB201EF8849600E0567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2038FB211EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2038FB221EF8849600E0567B /* Debug */,
+				2038FB231EF8849600E0567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2038FB241EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2038FB251EF8849600E0567B /* Debug */,
+				2038FB261EF8849600E0567B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2038FAE81EF8849600E0567B /* Project object */;
+}
