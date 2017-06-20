@@ -17,6 +17,10 @@
 		2038FB041EF8849600E0567B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2038FB021EF8849600E0567B /* LaunchScreen.storyboard */; };
 		2038FB0F1EF8849600E0567B /* FlappyKappaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FB0E1EF8849600E0567B /* FlappyKappaTests.swift */; };
 		2038FB1A1EF8849600E0567B /* FlappyKappaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2038FB191EF8849600E0567B /* FlappyKappaUITests.swift */; };
+		2080DA431EF8909400136C97 /* Kappa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080DA421EF8909400136C97 /* Kappa.swift */; };
+		20902AC61EF91A35004DD833 /* Pipe.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20902AC51EF91A35004DD833 /* Pipe.sks */; };
+		20CDD9091EF9C81600F7F806 /* smb_kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20CDD9081EF9C81600F7F806 /* smb_kick.wav */; };
+		20CDD90B1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		2038FB151EF8849600E0567B /* FlappyKappaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlappyKappaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2038FB191EF8849600E0567B /* FlappyKappaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlappyKappaUITests.swift; sourceTree = "<group>"; };
 		2038FB1B1EF8849600E0567B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2080DA421EF8909400136C97 /* Kappa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kappa.swift; sourceTree = "<group>"; };
+		20902AC51EF91A35004DD833 /* Pipe.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Pipe.sks; sourceTree = "<group>"; };
+		20CDD9081EF9C81600F7F806 /* smb_kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_kick.wav; path = ../../../Downloads/smb_kick.wav; sourceTree = "<group>"; };
+		20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Super Mario Bros. medley.mp3"; path = "../../../Downloads/Super Mario Bros. medley.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,9 +113,13 @@
 			children = (
 				2038FAF31EF8849600E0567B /* AppDelegate.swift */,
 				2038FAF51EF8849600E0567B /* GameScene.sks */,
+				20902AC51EF91A35004DD833 /* Pipe.sks */,
 				2038FAF71EF8849600E0567B /* Actions.sks */,
 				2038FAF91EF8849600E0567B /* GameScene.swift */,
 				2038FAFB1EF8849600E0567B /* GameViewController.swift */,
+				2080DA421EF8909400136C97 /* Kappa.swift */,
+				20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */,
+				20CDD9081EF9C81600F7F806 /* smb_kick.wav */,
 				2038FAFD1EF8849600E0567B /* Main.storyboard */,
 				2038FB001EF8849600E0567B /* Assets.xcassets */,
 				2038FB021EF8849600E0567B /* LaunchScreen.storyboard */,
@@ -243,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2038FAFF1EF8849600E0567B /* Main.storyboard in Resources */,
+				20CDD9091EF9C81600F7F806 /* smb_kick.wav in Resources */,
 				2038FAF61EF8849600E0567B /* GameScene.sks in Resources */,
 				2038FB011EF8849600E0567B /* Assets.xcassets in Resources */,
+				20902AC61EF91A35004DD833 /* Pipe.sks in Resources */,
+				20CDD90B1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 in Resources */,
 				2038FB041EF8849600E0567B /* LaunchScreen.storyboard in Resources */,
 				2038FAF81EF8849600E0567B /* Actions.sks in Resources */,
 			);
@@ -274,6 +289,7 @@
 				2038FAFA1EF8849600E0567B /* GameScene.swift in Sources */,
 				2038FAFC1EF8849600E0567B /* GameViewController.swift in Sources */,
 				2038FAF41EF8849600E0567B /* AppDelegate.swift in Sources */,
+				2080DA431EF8909400136C97 /* Kappa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +538,7 @@
 				2038FB201EF8849600E0567B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2038FB211EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +547,7 @@
 				2038FB231EF8849600E0567B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2038FB241EF8849600E0567B /* Build configuration list for PBXNativeTarget "FlappyKappaUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +556,7 @@
 				2038FB261EF8849600E0567B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
