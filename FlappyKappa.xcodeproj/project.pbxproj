@@ -21,6 +21,7 @@
 		20902AC61EF91A35004DD833 /* Pipe.sks in Resources */ = {isa = PBXBuildFile; fileRef = 20902AC51EF91A35004DD833 /* Pipe.sks */; };
 		20CDD9091EF9C81600F7F806 /* smb_kick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20CDD9081EF9C81600F7F806 /* smb_kick.wav */; };
 		20CDD90B1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */; };
+		20CDD90D1EF9D50D00F7F806 /* smb_mariodie.wav in Resources */ = {isa = PBXBuildFile; fileRef = 20CDD90C1EF9D50D00F7F806 /* smb_mariodie.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		20902AC51EF91A35004DD833 /* Pipe.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Pipe.sks; sourceTree = "<group>"; };
 		20CDD9081EF9C81600F7F806 /* smb_kick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_kick.wav; path = ../../../Downloads/smb_kick.wav; sourceTree = "<group>"; };
 		20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Super Mario Bros. medley.mp3"; path = "../../../Downloads/Super Mario Bros. medley.mp3"; sourceTree = "<group>"; };
+		20CDD90C1EF9D50D00F7F806 /* smb_mariodie.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = smb_mariodie.wav; path = ../../../Downloads/smb_mariodie.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				2038FAF91EF8849600E0567B /* GameScene.swift */,
 				2038FAFB1EF8849600E0567B /* GameViewController.swift */,
 				2080DA421EF8909400136C97 /* Kappa.swift */,
+				20CDD90C1EF9D50D00F7F806 /* smb_mariodie.wav */,
 				20CDD90A1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 */,
 				20CDD9081EF9C81600F7F806 /* smb_kick.wav */,
 				2038FAFD1EF8849600E0567B /* Main.storyboard */,
@@ -258,6 +261,7 @@
 				20CDD9091EF9C81600F7F806 /* smb_kick.wav in Resources */,
 				2038FAF61EF8849600E0567B /* GameScene.sks in Resources */,
 				2038FB011EF8849600E0567B /* Assets.xcassets in Resources */,
+				20CDD90D1EF9D50D00F7F806 /* smb_mariodie.wav in Resources */,
 				20902AC61EF91A35004DD833 /* Pipe.sks in Resources */,
 				20CDD90B1EF9C9C000F7F806 /* Super Mario Bros. medley.mp3 in Resources */,
 				2038FB041EF8849600E0567B /* LaunchScreen.storyboard in Resources */,

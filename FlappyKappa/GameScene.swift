@@ -30,6 +30,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var jumpSound: AVAudioPlayer?
     var musicSound: AVAudioPlayer?
+    var dieSound: AVAudioPlayer?
 
     override func didMove(to view: SKView) {
         
@@ -63,14 +64,16 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             isAlive = false
             //death animation + impulse
             player.physicsBody?.applyImpulse(CGVector(dx: -40, dy: 40))
-            player.zPosition  = 1
-            player.physicsBody?.collisionBitMask = 0
+            player.physicsBody?.categoryBitMask = 0
             player.physicsBody?.contactTestBitMask = 0
+            player.physicsBody?.collisionBitMask = 0
+            player.zPosition  = 1
             
-            
-            player.run(SKAction(named: "SpinOut")!,  completion: {
+            stopMusic()
+            playDieSound()
+            player.run(SKAction(named: "SpinOut", duration: 3)!,  completion: {
                 //restarting
-                self.stopMusic()
+               
                 if let scene = GameScene(fileNamed:"GameScene") {
                     let skView = self.view! as SKView
                     
@@ -81,7 +84,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                     
                     
                     
-                    skView.presentScene(scene, transition: SKTransition.fade(withDuration: 1.0))
+                    skView.presentScene(scene, transition: SKTransition.fade(withDuration: 2))
                 }
                 
             })
@@ -137,6 +140,19 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             musicSound?.stop()
             musicSound = nil
         }
+    }
+    func playDieSound(){
+        let path = Bundle.main.path(forResource: "smb_mariodie.wav", ofType:nil)!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            let sound = try AVAudioPlayer(contentsOf: url)
+            musicSound = sound
+            sound.play()
+        } catch {
+            // couldn't load file :(
+        }
+
     }
     override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
